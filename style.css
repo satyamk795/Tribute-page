@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    background-color: rgb(245, 249, 253);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(17, 17, 17);
+}
+
+li {
+    float: left;
+    width: 20%;
+    height: 100px;
+}
+
+a:not(.source){
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(247, 241, 233);
+}
+
+a:hover:not(.source){
+    background-color: rgb(100, 95, 95);
+}
+#first{background-color: rgb(17, 17, 17);
+      width: 100%;
+      height: 400px;
+}
+
+img{width: 50%; 
+    height: 400px; 
+}
+
+#front{color: aliceblue;
+    font-size: 210%;
+    font-family:garamond;
+    text-align: center;
+    float:right; 
+    margin-top: 40px; 
+    margin-right: 272px;
+    margin-bottom: 0px;
+}
+#second{
+    width: 35%;
+    margin-left: 120px;
+    margin-bottom: 0px;
+
+}
+h2{font-family: sans-serif;
+   font-size: 335%;
+   text-align: justify;
+
+}
+#third{
+    width: 30%;
+    float: right;
+    margin-top: -420px;
+    margin-right: 400px;
+}
+.desc{text-align: justify;
+    font-size: larger;
+}
+#fourth{float: right;
+    width: 22%;
+    height: 500px;
+    margin-top: -650px;
+    margin-left: 500px;
+}
+h4{
+    font-size: 150%;
+}
+.list{font-size: 120%;}
+
+#fifth{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(35, 37, 36);
+    margin-top: 300px;
+}
+#letter{width: 120px;
+height: 120px;
+margin-left: 35%;
+margin-top: 3%;
+}
+h3{
+    margin-top: 55px;
+    margin-right:270px;
+    float: right;
+    font-size: 50px;
+    color: rgb(243, 241, 215);
+    font-family: garamond;
+}
+#news{color: aliceblue;
+    font-size: 20px;
+    float: right;
+    margin-top: -40px;
+    margin-right:330px;
+}
+form{
+    float: right;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+table{
+    width: 600px;
+
+}
+.input-line{
+    width: 600px;
+    height: 35px;
+    background-color: rgb(242, 241, 224);
+    font-size: 20px;
+    font-family: garamond;
+    color: black;
+}
+#check{color: aliceblue;
+    font-size: 20px;
+    height: 60px;
+}
+#sub{
+    width: 600px;
+    height: 40px;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: garamond;
+    font-weight: bolder;
+
+}
+.source{
+    text-align: left;
+    color: aliceblue;
+    font-size: x-large;
+    margin-top: 390px;
+    margin-left: 12px;
+}
